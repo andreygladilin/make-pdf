@@ -1,0 +1,189 @@
+2023-03-28 09:37:57,208 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.anchors'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor anchors is not installed
+
+2023-03-28 09:37:57,209 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.csvtables'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor csvtables is not installed
+
+2023-03-28 09:37:57,416 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.flags'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor flags is not installed
+
+2023-03-28 09:37:57,416 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.graphviz'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor graphviz is not installed
+
+2023-03-28 09:37:57,453 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.macros'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor macros is not installed
+
+2023-03-28 09:37:57,453 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.mermaid'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor mermaid is not installed
+
+2023-03-28 09:37:57,453 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.multilinetables'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor multilinetables is not installed
+
+2023-03-28 09:37:57,453 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.plantuml'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor plantuml is not installed
+
+2023-03-28 09:37:57,454 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.runcommands'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor runcommands is not installed
+
