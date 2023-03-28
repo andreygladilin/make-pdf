@@ -1,0 +1,1 @@
+    byte[] hash = generateUserHash(password, salt);

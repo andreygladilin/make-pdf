@@ -1,0 +1,1 @@
+    python3 mdast_cli/mdast_scan.py -h

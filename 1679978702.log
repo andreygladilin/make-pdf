@@ -1,0 +1,20 @@
+2023-03-28 07:45:20,022 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "C:\Users\aglad\AppData\Local\Programs\Python\Python310\lib\site-packages\foliant\backends\pandoc.py", line 358, in _build_flat
+    run(command, shell=True, check=True, stdout=PIPE, stderr=STDOUT)
+  File "C:\Users\aglad\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'pandoc --reference-doc="templates/template.docx" --output "make-pdf-2023-03-28.docx"   --pdf-engine=xelatex --toc --toc-depth=1 -f markdown __folianttmp__\__all__.md' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aglad\AppData\Local\Programs\Python\Python310\lib\site-packages\foliant\utils.py", line 158, in spinner
+    yield
+  File "C:\Users\aglad\AppData\Local\Programs\Python\Python310\lib\site-packages\foliant\backends\pandoc.py", line 444, in make
+    result.append(self._build_flat(target))
+  File "C:\Users\aglad\AppData\Local\Programs\Python\Python310\lib\site-packages\foliant\backends\pandoc.py", line 363, in _build_flat
+    raise RuntimeError(f'Build failed: {exception.output.decode()}')
+RuntimeError: Build failed: pandoc.exe: C:\DOCS\make-pdf__folianttmp__\ag\img\11.png: openBinaryFile: does not exist (No such file or directory)
+
+
+2023-03-28 07:45:20,171 |                  flt | CRITICAL | No result returned by backend

@@ -1,0 +1,1 @@
+    * В поле **Factor API endpoint** необходимо указать URL Factor.Block API, например, `http://factor.local/api/`.

@@ -1,0 +1,1 @@
+`"com.amphoras.hidemyrootadfree"`

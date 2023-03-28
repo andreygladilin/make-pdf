@@ -1,0 +1,197 @@
+2023-02-02 10:20:42,146 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.anchors'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor anchors is not installed
+
+2023-02-02 10:20:42,149 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.csvtables'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor csvtables is not installed
+
+2023-02-02 10:20:43,188 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.flags'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor flags is not installed
+
+2023-02-02 10:20:43,189 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.graphviz'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor graphviz is not installed
+
+2023-02-02 10:20:43,459 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.macros'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor macros is not installed
+
+2023-02-02 10:20:43,459 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.mermaid'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor mermaid is not installed
+
+2023-02-02 10:20:43,460 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.multilinetables'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor multilinetables is not installed
+
+2023-02-02 10:20:43,460 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.plantuml'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor plantuml is not installed
+
+2023-02-02 10:20:43,461 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 66, in apply_preprocessor
+    preprocessor_module = import_module(f'foliant.preprocessors.{preprocessor_name}')
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'foliant.preprocessors.runcommands'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/base.py", line 76, in apply_preprocessor
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Preprocessor runcommands is not installed
+
+2023-02-02 10:20:44,682 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/pandoc.py", line 358, in _build_flat
+    run(command, shell=True, check=True, stdout=PIPE, stderr=STDOUT)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'pandoc --reference-doc="templates/template.docx" --output "make-pdf-2023-02-02.docx"   --pdf-engine=xelatex --toc --toc-depth=4 --metadata=fignos-caption-name=Рис. -f markdown __folianttmp__/__all__.md' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/pandoc.py", line 444, in make
+    result.append(self._build_flat(target))
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/pandoc.py", line 363, in _build_flat
+    raise RuntimeError(f'Build failed: {exception.output.decode()}')
+RuntimeError: Build failed: [WARNING] Could not fetch resource './img/rev.png': PandocResourceNotFound "./img/rev.png"
+[WARNING] Could not fetch resource './img/rev.png': PandocResourceNotFound "./img/rev.png"
+[WARNING] Could not fetch resource './img/rev.png': PandocResourceNotFound "./img/rev.png"
+[WARNING] Could not fetch resource './img/rev.png': PandocResourceNotFound "./img/rev.png"
+[WARNING] Could not fetch resource './img/tick.png': PandocResourceNotFound "./img/tick.png"
+[WARNING] Could not fetch resource './img/block.png': PandocResourceNotFound "./img/block.png"
+pandoc: make-pdf-2023-02-02.docx: openBinaryFile: permission denied (Permission denied)
+
+
+2023-02-02 10:20:44,793 |                  flt | CRITICAL | No result returned by backend

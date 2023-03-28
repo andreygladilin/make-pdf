@@ -1,0 +1,37 @@
+2023-02-02 10:09:16,270 |           flt.pandoc |    ERROR | Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/pandoc.py", line 358, in _build_flat
+    run(command, shell=True, check=True, stdout=PIPE, stderr=STDOUT)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'pandoc --output "make-pdf-2023-02-02.pdf"     -f markdown __folianttmp__/__all__.md' returned non-zero exit status 43.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/foliant/utils.py", line 158, in spinner
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/pandoc.py", line 444, in make
+    result.append(self._build_flat(target))
+  File "/usr/local/lib/python3.8/dist-packages/foliant/backends/pandoc.py", line 363, in _build_flat
+    raise RuntimeError(f'Build failed: {exception.output.decode()}')
+RuntimeError: Build failed: [WARNING] Could not fetch resource './img/rev.png': replacing image with description
+[WARNING] Could not fetch resource './img/rev.png': replacing image with description
+[WARNING] Could not fetch resource './img/rev.png': replacing image with description
+[WARNING] Could not fetch resource './img/rev.png': replacing image with description
+[WARNING] Could not fetch resource './img/rev.png': replacing image with description
+[WARNING] Could not fetch resource './img/tick.png': replacing image with description
+[WARNING] Could not fetch resource './img/block.png': replacing image with description
+Error producing PDF.
+! Package inputenc Error: Unicode character О (U+041E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...ux444ux43eux440ux43cux430ux446ux438ux44f}}
+
+Try running pandoc with --pdf-engine=xelatex.
+
+
+2023-02-02 10:09:16,386 |                  flt | CRITICAL | No result returned by backend

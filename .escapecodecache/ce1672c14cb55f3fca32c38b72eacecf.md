@@ -1,0 +1,1 @@
+`process = Runtime.getRuntime().exec(new String[]{"which", "su"});`
